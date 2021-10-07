@@ -1,7 +1,7 @@
 language: bash
 services: docker
 before_install:
-  - cd Documents\ projetoCurso\  RestWithSpringBootUdemy\ Docker/
+  - cd RestWithSpringBootUdemy\ Docker/
   - echo "We are in the Docker folder!"
 script:
   - docker-compose build
