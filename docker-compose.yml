@@ -18,7 +18,7 @@ services:
     networks:
       - udemy-network
   rest-with-spring-boot-udemy:
-    image: matheusbonnet/rest_with_spring_boot_udemysss
+    image: matheusbonnet/rest-with-spring-boot-udemy
     restart: always
     build: ./RestWithSpringBootUdemy
     working_dir: /RestWithSpringBootUdemy
