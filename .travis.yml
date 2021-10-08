@@ -2,7 +2,7 @@ language: bash
 services: docker
 before_install:
   - cd RestWithSpringBootUdemy/
-  - echo "We are in the Docker folder!!!"
+  - echo "We are in the Docker folder!!!!"
 script:
   - docker-compose build
 before_deploy:
@@ -11,7 +11,7 @@ deploy:
   provider: script
   script:
     docker push matheusbonnet/mysql-rest-with-spring-boot-udemy;
-    docker push matheusbonnet/rest-with-spring-boot-udemy;
+    docker push matheusbonnet/rest_with_spring_boot_udemy;
   on:
     branch: master
 notifications:
