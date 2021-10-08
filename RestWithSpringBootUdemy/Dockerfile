@@ -1,1 +1,2 @@
-FROM adoptopenjdk:8-jdk-openj9
+FROM maven:3.6.1-jdk-11-slim
+

@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   db:
-    image: matheusbonnet/mysql-curso-aws
+    image: matheusbonnet/mysql-rest-with-spring-boot-udemy
     command: mysqld --default-authentication-plugin=mysql_native_password
     restart: always
     build:
@@ -18,7 +18,7 @@ services:
     networks:
       - udemy-network
   rest-with-spring-boot-udemy:
-    image: matheusbonnet/curso-aws
+    image: matheusbonnet/rest_with_spring_boot_udemysss
     restart: always
     build: ./RestWithSpringBootUdemy
     working_dir: /RestWithSpringBootUdemy
@@ -40,4 +40,3 @@ services:
 networks:
     udemy-network:
         driver: bridge
-
