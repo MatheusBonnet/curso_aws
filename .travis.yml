@@ -10,8 +10,8 @@ before_deploy:
 deploy:
   provider: script
   script:
-    docker push matheusbonnet/mysql-rest-with-spring-boot-udemy;
-    docker push matheusbonnet/rest_with_spring_boot_udemy;
+    docker push matheusbonnet/mysql-rest-with-spring-boot-udemy:latest;
+    docker push matheusbonnet/rest_with_spring_boot_udemy:latest;
   on:
     branch: master
 notifications:
